@@ -1,0 +1,36 @@
+body{
+    font-size:35px;
+}
+.nome-empresa{
+    background-color: chocolate;
+    width: 50px;
+}
+.seguimento-empresa{
+background-color: red;
+display:block;
+}
+
+.curso-html{
+    background: green;
+}
+
+.curso-css{
+    background: yellow;
+}
+
+.curso-java{
+    background:#00dddd
+}
+
+.curso-boostrap{
+    background: #ee00da
+}
+.curso-html,.curso-css{
+    display: inline;
+    height: 18px;
+}
+.curso-java,.curso-boostrap{
+    display: inline;
+    height: 400px;
+    width: 300px;
+}  

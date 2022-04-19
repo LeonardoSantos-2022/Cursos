@@ -1,0 +1,13 @@
+.nome{
+    text-align: center;
+    text-decoration:underline;
+    color: red;
+    font-size: 34px;
+    width: 500px;
+    
+}
+
+.seguimentos{
+    font-size: 20px; 
+    font-family: sans-serif;
+}

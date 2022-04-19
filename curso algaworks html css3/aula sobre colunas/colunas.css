@@ -1,0 +1,48 @@
+body{
+    font-size: 32px;   
+}
+h1{
+    margin: 0;   
+}
+footer{
+    background-color: yellow;
+    text-align: center;
+}
+article{
+    background-color: #0f0;
+}
+.coluna1,.coluna2{
+    background-color: #cccc;
+  
+ 
+}
+
+.coluna1{
+    float: left;
+    width: 48%;
+    margin: 10px;
+}
+.coluna2{
+    float: left;
+    width: 48%
+}
+
+.clearfix{
+    clear: both;
+}
+article > p::first-letter{
+    font-size: 60px;
+    color: red;
+}
+h1::before{
+    content: "titulo:";
+}
+h1::after{
+    content:"- artigo";
+}
+
+article::after{
+    content: "";
+    display: block;
+    clear: both;
+}

@@ -1,0 +1,241 @@
+/* ----planos----- */
+#planos {
+  position: relative;
+    padding: 80px 0 ;
+    margin: 20px; 
+    }
+    .plano---mais-popular::before{
+    background-color: #c2030c;
+    position: absolute;
+    top: -10px;
+    left: -5px;
+    color: #FFFF;
+    font-size: 0.7142em;
+    padding: 0 10px;
+    box-shadow: 1px 1px #000;
+    line-height: 2.5;
+    content:"MAIS POPULAR";
+    }
+/*---------------------------*\
+        botaos verde
+/*---------------------------*/
+    .botao--green{
+      padding: 10px 15px;
+      line-height: normal;
+      color:#fff;
+      background-color: #127d00;
+      display: inline-block;
+
+    }
+
+  .botao:hover,
+  .botao:focus,
+  .botao--green:hover,
+  .botao--green:focus{
+  text-decoration: none;
+  color: #fff;
+  background-color: #0e6400;
+}
+/*---------------------------*\
+        botaos azul
+/*---------------------------*/
+    .botao--assinar{
+    padding: 15px;
+    color:#fff;
+    border: none;
+    border-radius: 10px;
+    background-color:#004b86 ;
+    display: inline-block;
+    list-style: none;
+    }
+   .botao--assinar:hover,.botao--assinar:focus{
+     text-decoration: none;
+     background-color: #003b6a;
+     color: #fff;
+   }
+/*---------------------------*\
+          chamada
+\*---------------------------*/
+
+    .chamada{
+    text-align: center;
+    font-size: 1.6rem;
+    }
+    .chamada__titulo{
+    margin: 0;
+    color: #FFFF;
+    font-size: 3.375em;
+    line-height: 0.9;
+    text-shadow: 1px 1px #313131;
+    }
+    .chamada__subtitulo {
+      margin: 20px 0;
+      color: #fff;
+      font-size: 1em;
+    }
+    .chamada__subtitulo{
+      margin-top: 60px;
+      color: #FFFF;
+    }
+    .layout__cabecario{
+      line-height: 60px;
+    }
+    .layout__chamada {
+      padding: 80px 0;
+      background-color: #7ab55c;
+    }
+    .chamada__acao {
+      font-size: 1em;
+    }
+    @media(min-width: 992px) {
+    .chamada {
+      padding-left: 15%;
+      padding-right: 15%;
+      font-size: 2.2rem;
+    }
+    /* ----------- *\
+      depoimento
+    /* ----------- */
+    .depoimento{
+      font-size: 2.2rem;
+      text-align: center;
+    }
+
+
+    @media(min-width: 992px) {
+    .depoimento{
+      padding-left: 15%;
+      padding-right: 15%;
+      font-size: 2.2rem;
+    }
+  
+    
+  .depoimento > blockquote::before{
+      position:absolute;
+      color: #ccc;
+      top: -0.35em;
+      left: 0;
+      font-size: 8em; /* 176px */
+      content: "\201C";
+  
+  }
+
+}
+}
+    .depoimento > blockquote {
+      position: relative;
+      margin: 0;
+      padding: 0 60px;
+  
+  }
+    .depoimento_autor{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.7272em;
+    }
+  
+    .depoimento img{
+    border-radius: 50%;
+    }
+  /* ----------------- *\
+      navegacao
+ /*--------------------- */
+
+  .navegacao__menu{
+    font-size: 1.4rem;
+    float: right;
+    margin-top: -2px;
+    
+  }
+
+  .navegacao--cabaçario--assinatura{
+    margin: 0 45%;
+    }
+  /* ------------------- *\
+      botao chaveador
+ /*--------------------- */
+  .botao-chaveador{
+    width: 24px;
+    height:24px ;
+    background-image:url(../imagens/bars.png);
+    border: none;
+    display: none;
+    float: right;
+    margin-top: 12px;
+
+  }
+
+  /*          *\
+  -----menu-----
+  /*          */
+
+  .menu{
+    margin: 0;
+    list-style: none;
+  }
+
+  @media(max-width: 991px){
+  .menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display:none;
+    border-right: 1px solid #eeee;
+    width: 200px;
+    background-color: #fbfbfb;
+    list-style: none;
+  }
+ .menu-exibindo {
+    display: block;
+  }
+  .botao-chaveador{
+    display: block;
+  }
+}
+.menu__item--botao{
+  margin-top: 12px;
+  line-height: 3;
+  display: block;
+}
+@media(min-width: 992px){
+.menu__item{
+  display: inline-block;
+  padding-right: 20px;
+}
+}
+
+/* ------- titulo-formulario---------- */
+
+.titulo-formulario{
+  margin: 0;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #cccc;
+  font-size: 2.6rem;
+  font-weight:normal;
+  color: #004b86;
+
+}
+/* ------- grupo de entrada---------- */
+.grupo-entrada{
+  margin: 25px;
+}
+.grupo-entrada>label{
+  display: block;
+  font-weight: bold;
+}
+.campo{
+  display: block;
+  width: 100%;
+  height: 2.8em;
+  padding: 3px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.botao-assinatura{
+  text-align: center;
+  margin-top: 15px;
+}
+.grupo-entrada2{
+  display: inline-block;
+}

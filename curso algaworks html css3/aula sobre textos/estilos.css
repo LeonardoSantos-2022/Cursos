@@ -1,0 +1,25 @@
+h1{
+    font-family: Verdana;
+    color: red;
+}
+
+
+#titulo{
+    color: blue;
+   
+    
+}
+.destaque strong{
+ color:red;
+ ;
+}
+
+.pmissao {
+font-family: Arial;
+}
+
+.seguimentos{
+    width: 100%;
+    background-color: red;
+    color: white;
+}

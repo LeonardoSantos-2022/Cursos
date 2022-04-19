@@ -1,0 +1,85 @@
+body{
+box-sizing: border-box;
+}
+header{
+background-color: teal;
+font-size: 45px;
+text-align: center;
+border-bottom: 4px  solid red;
+}
+.container{
+
+height: 990px;
+width: 900px;
+border-left: 2px solid black;
+border-right: 2px solid black;
+box-shadow: 2px solid red;
+margin: 0 auto;
+font-size: 25px;
+}
+h1{ 
+margin-top: -3px;
+font-size: 35px;
+text-align: center;
+background-color: green;
+margin: 0;
+}
+p{ 
+width:200px ;
+font-size: 20px;
+margin: 0 auto;
+
+}
+.caixa1{
+background-color: red;
+text-align: center;
+}
+.caixa2{
+background-color: yellow;
+text-align: center;
+}
+.caixa2{
+background-color: rebeccapurple;
+text-align: center;
+}
+.caixa3{
+background-color: orangered;
+text-align: center;
+}
+li{ 
+display: inline-block;
+list-style: none;
+margin-left: 65px;
+border: 2px solid yellow;
+margin-top: 20px; 
+}
+ul > li{
+list-style: none;
+font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+font-size: 35px;
+text-align: center;
+background-color: chocolate;
+}
+
+.botao-dowload{
+padding: 10px 20px;
+border-radius:10px ;
+background-color: green;
+color: #fff;
+text-decoration: none;
+font-size: arial;
+margin-right: 40px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.botao-dowload:hover{
+font-size: 35px;
+
+}
+.botao{
+text-align: center;
+margin-top: 40px;
+
+}
