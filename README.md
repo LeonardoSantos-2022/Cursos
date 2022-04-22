@@ -1,4 +1,4 @@
-# cursos: :bookmark:
+# cursos: :mortar_board:
 - 1 - curso algaworks html css3 
 
 - 2 - curso algaworks bootstrap 
