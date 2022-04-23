@@ -1,5 +1,5 @@
 var incrementar = (function() {
-	var valor = 0;
+var valor = 0;
 
 	return function() {
 		return ++valor;
