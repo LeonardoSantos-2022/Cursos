@@ -1,10 +1,8 @@
 # cursos: :mortar_board:
-- 1 - curso algaworks html css3 
+- 1 - curso alura html 5 css 3 
 
-- 2 - curso algaworks bootstrap 
+- 2 - curso algaworks html 5 css 3 
 
+- 3 - curso algaworks bootstrap 
 
-- 3 - curso algaworks javascript 
-
-
-- 4 - curso alura html 5 css3
+- 4 - curso algaworks javascript 
