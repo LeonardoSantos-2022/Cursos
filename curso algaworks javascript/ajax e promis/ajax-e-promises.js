@@ -8,9 +8,8 @@
 
 	resposta.done(function(estados) {
         var comboEstado = $("#combo-estado")
-        // comboEstado .empty();
+        //comboEstado .empty();
         comboEstado.html('<option>Selecione o estado</option>');
-        comboEstado .html();
 		estados.forEach(function(estado) {
 			var optionEstados = $("<option>").val(estado.uf).text(estado.nome)
             comboEstado.append(optionEstados);

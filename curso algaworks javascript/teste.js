@@ -6,3 +6,5 @@ var a = 29
 var b = 39
 var resultado=a*b
 console.log("resultado",resultado)
+
+
