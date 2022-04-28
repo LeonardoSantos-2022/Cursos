@@ -145,7 +145,6 @@
     font-size: 1.4rem;
     float: right;
     margin-top: -2px;
-    
   }
 
   .navegacao--cabaçario--assinatura{
@@ -185,9 +184,13 @@
     width: 200px;
     background-color: #fbfbfb;
     list-style: none;
+  
+    
   }
  .menu-exibindo {
     display: block;
+   
+     
   }
   .botao-chaveador{
     display: block;
