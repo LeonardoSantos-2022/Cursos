@@ -17,7 +17,7 @@
 	});
 
 	resposta.fail(function() {
-		alert('Erro carregando estados do servidor!');
+		alert('Erro carregando estados no servidor!');
 	});
 
 });
