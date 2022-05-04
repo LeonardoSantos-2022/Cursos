@@ -34,7 +34,8 @@ margin-left: 14px;
 }
 
 
-.produtos{width: 940px;
+.produtos{
+width: 940px;
 padding:50px 0;
 margin: 0 15%;
 }
@@ -60,7 +61,7 @@ font-weight: bold;
 font-size: 35px;
 }
 .produtos li:hover{
-    border:solid#C78C19;
+    border:solid #C78C19;
     padding: 35px 20px;
     margin: 0 auto;  
 }
