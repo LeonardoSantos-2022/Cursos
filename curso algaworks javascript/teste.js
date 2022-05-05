@@ -21,4 +21,7 @@ console.log(especificaçoes);
 
 var estados=["GO","SP","MG"]
 console.log(estados);
-var soma
+
+
+
+    
