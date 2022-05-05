@@ -4,7 +4,7 @@ console.log(idade)
 
 var a = 29
 var b = 39
-var resultado=a*b
+var resultado=a+b
 console.log("resultado",resultado);
 
 var carros = ["celta","gol","fiat"]
@@ -18,4 +18,7 @@ var especificaçoes={
 }
 console.log(especificaçoes);
 
+
+var estados=["GO","SP","MG"]
+console.log(estados);
 
