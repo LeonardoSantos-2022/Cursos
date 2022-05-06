@@ -1,6 +1,6 @@
 $(function(){
 
-$("#botao1").on("clique",function(e){
+$("#botao1").on("click",function(e){
 console.log("botao 1 clicado");
 
 });
