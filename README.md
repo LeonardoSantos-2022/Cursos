@@ -5,4 +5,6 @@
 
 - 3 - curso algaworks bootstrap 
 
-- 4 - curso algaworks javascript 
+- 4 - curso algaworks javascript
+
+- 5 - curso dio html 5 css 3

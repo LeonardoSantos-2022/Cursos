@@ -22,6 +22,9 @@ console.log(especificaçoes);
 var estados=["GO","SP","MG"]
 console.log(estados);
 
-
+a=2
+b=5
+resultado=a-b
+console.log('resultado',resultado);
 
     
